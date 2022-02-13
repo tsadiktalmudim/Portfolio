@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(119, 119, 119);
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 19px 24px;
+    background-color: rgba(16, 74, 88, 0.75);
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 9999;
+}
+
+* a:hover {
+    color: rgb(72, 154, 202);
+}
+
+.bio {
+    display: flex;
+    padding: 20px 0;
+}
+
+.bio h2 {
+    justify-content: flex-start;
+    font-size: large;
+    border-right: 2px solid black;
+    padding: 10px 40px 100px 40px;
+    flex: 1;
+    text-align: center;
+}
+
+.bio p {
+    padding: 10px;
+}
+
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.port-1 a {
+    display: flex;
+    background-image: url(Run-Buddy.png);
+    background-size: 125%;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 100%);
+    padding: 200px 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 360px;
+    flex-wrap: wrap;
+}
+
+.port-1:hover {
+    background-color: rgba(255, 255, 255, 50%);
+}
