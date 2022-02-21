@@ -5,6 +5,16 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+* a:hover {
+    color: rgb(72, 154, 202);
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
 h2 {
     font-size: x-large;
     text-align: right;
@@ -16,6 +26,7 @@ h3 {
 
 a {
     text-decoration: none;
+    color: #000;
 }
 
 body {
@@ -63,16 +74,6 @@ header nav ul li a {
     background-position: center;
     width: auto;
     height: 276px;
-}
-
-* a:hover {
-    color: rgb(72, 154, 202);
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-    color: #000;
 }
 
 .bio {
