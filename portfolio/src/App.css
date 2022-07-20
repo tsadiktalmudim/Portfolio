@@ -4,7 +4,7 @@ body a {
 }
 
 a:hover {
-  color: #B1482E;
+  color: #b1482e;
 }
 
 .header {
@@ -16,7 +16,7 @@ a:hover {
 }
 
 .hero {
-image-rendering: crisp-edges;
+  image-rendering: crisp-edges;
   width: 1200vh;
 }
 
@@ -48,6 +48,10 @@ image-rendering: crisp-edges;
 
 .App-link {
   color: #61dafb;
+}
+
+.footer {
+  background-color: #2e97b178;
 }
 
 @keyframes App-logo-spin {

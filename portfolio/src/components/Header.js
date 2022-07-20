@@ -35,7 +35,7 @@ export default function Header() {
           </Button>
         </Stack>
       </Grid>
-      <Card component="li" sx={{ minWidth: 300, minHeight: 400, flexGrow: 2 }}>
+      <Card sx={{ minWidth: 300, minHeight: 400, flexGrow: 2 }}>
         <CardCover>
           <img
             src={Hero}
