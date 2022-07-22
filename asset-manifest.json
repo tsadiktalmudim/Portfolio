@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cc63320d.css",
-    "main.js": "/portfolio/static/js/main.4dfc4b05.js",
+    "main.css": "/portfolio/static/css/main.e3ba22ce.css",
+    "main.js": "/portfolio/static/js/main.004c43eb.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/run-buddy.png": "/portfolio/static/media/run-buddy.1e524df287655245b2c5.png",
-    "static/media/voyager.png": "/portfolio/static/media/voyager.818ba6940b1e7543ed40.png",
+    "static/media/voyager.png": "/portfolio/static/media/voyager.5c50b1fa896644b08b26.png",
     "static/media/HHG2G.gif": "/portfolio/static/media/HHG2G.140b8caad8badf104a5a.gif",
     "static/media/hero_bg.jpg": "/portfolio/static/media/hero_bg.b0696c79d8c0f5bc42fc.jpg",
     "static/media/weather-dashboard.png": "/portfolio/static/media/weather-dashboard.504dbbc5496b04fbe4ca.png",
@@ -14,12 +14,12 @@
     "static/media/password-generaor.png": "/portfolio/static/media/password-generaor.21246de4301464108d0f.png",
     "static/media/GAHJUS.jpg": "/portfolio/static/media/GAHJUS.9623c1142c330d43069f.jpg",
     "index.html": "/portfolio/index.html",
-    "main.cc63320d.css.map": "/portfolio/static/css/main.cc63320d.css.map",
-    "main.4dfc4b05.js.map": "/portfolio/static/js/main.4dfc4b05.js.map",
+    "main.e3ba22ce.css.map": "/portfolio/static/css/main.e3ba22ce.css.map",
+    "main.004c43eb.js.map": "/portfolio/static/js/main.004c43eb.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc63320d.css",
-    "static/js/main.4dfc4b05.js"
+    "static/css/main.e3ba22ce.css",
+    "static/js/main.004c43eb.js"
   ]
 }
