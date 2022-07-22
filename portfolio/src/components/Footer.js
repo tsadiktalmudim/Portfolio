@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookSquare,
   faLinkedin,
+  faGithubSquare
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
@@ -26,6 +27,10 @@ export default function Footer() {
           <a href="https://www.linkedin.com/in/thomas-hamilton-522b17181/">
             <FontAwesomeIcon className="i" icon={faLinkedin} />
           </a>
+          <a href="https://github.com/tsadiktalmudim">
+            <FontAwesomeIcon className="i github" icon={faGithubSquare} />
+          </a>
+          
         </div>
       </div>
     </footer>
