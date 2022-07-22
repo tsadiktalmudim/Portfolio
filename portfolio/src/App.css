@@ -7,6 +7,10 @@ a:hover {
   color: #b1482e;
 }
 
+.content {
+  min-height: calc(100vh - 75px) !important;
+}
+
 .header {
   background-color: #2e97b178;
   position: -webkit-sticky;
@@ -51,7 +55,67 @@ a:hover {
 }
 
 .footer {
+  justify-content: space-between;
+}
+
+.footer-pin {
+  position: relative !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  display: flex;
   background-color: #2e97b178;
+  height: 75px;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+.noMatch {
+  text-align: center;
+}
+
+.social-menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.social-menu .i {
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 25px;
+  margin-right: 10px;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  justify-content: center;
+}
+
+.social-menu .i:before {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  font-weight: 400;
+}
+
+.social-menu a {
+  text-decoration: none;
+}
+
+.social-menu .i:hover {
+  opacity: .7;
+  border-radius: 0;
+}
+
+.fa-facebook {
+  background: #3b5998
+}
+
+.fa-linkedin {
+  background: #007bb6
 }
 
 @keyframes App-logo-spin {
