@@ -129,3 +129,26 @@ footer {
 .github {
   background: #515151;
 }
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.container img:hover {
+  opacity: 50%;
+  border: #000 solid 1px;
+}
+
+.info-lg {
+  position: absolute;
+  bottom: 5px;
+  left: 55px;
+
+}
+.info {
+  position: absolute;
+  bottom: 25px;
+  left: 80px;
+}

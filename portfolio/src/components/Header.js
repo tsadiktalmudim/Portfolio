@@ -27,9 +27,9 @@ export default function Header() {
           <Button>
             <Link to="/projects">Projects</Link>
           </Button>
-          <Button>
+          {/* <Button>
             <Link to="/links">Links</Link>
-          </Button>
+          </Button> */}
           <Button>
             <Link to="/contact">Contact</Link>
           </Button>

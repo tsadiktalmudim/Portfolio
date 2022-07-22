@@ -2,11 +2,8 @@ import React from "react";
 import {
   Grid,
   Card,
-  CardHeader,
   CardMedia,
   CardContent,
-  CardActions,
-  Collapse,
   Typography,
 } from "@mui/material";
 import Gahjus from "../assets/images/GAHJUS.jpg";
