@@ -54,17 +54,20 @@ a:hover {
   color: #61dafb;
 }
 
-.footer {
+footer {
+  display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: #2e97b178;
+  height: 75px;
 }
 
 .footer-pin {
-  position: relative !important;
-  left: 0 !important;
-  bottom: 0 !important;
-  display: flex;
-  background-color: #2e97b178;
-  height: 75px;
+  margin-left: 10px;
+}
+
+.footer {
+  justify-content: flex-start;
 }
 
 .flexbox {
@@ -74,6 +77,10 @@ a:hover {
 
 .noMatch {
   text-align: center;
+}
+
+.righty {
+  justify-content: flex-end;
 }
 
 .social-menu {
@@ -106,23 +113,15 @@ a:hover {
 }
 
 .social-menu .i:hover {
-  opacity: .7;
+  opacity: 0.7;
   border-radius: 0;
 }
 
 .fa-facebook {
-  background: #3b5998
+  background: #3b5998;
+  border-radius: 50%;
 }
 
 .fa-linkedin {
-  background: #007bb6
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background: #007bb6;
 }
